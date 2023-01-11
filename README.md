@@ -21,17 +21,7 @@
 ## 3-Instalacion
 - La instalación de Nginx es sencilla. Ejecute el sudo apt install nginx comando para instalar el programa en la máquina virtual Ubuntu, aunque en nuestro caso será una maquina debian (entramos en modo administrador con el comando "su -" y realizamos un "apt install nginx"). Una vez finalizada la instalación, ejecute whereis nginx para descubrir dónde está instalado el programa.
 ## 4-Casos practicos
-- Nginx está diseñado para ofrecer un bajo uso de memoria y alta concurrencia. En lugar de crear nuevos procesos para cada solicitud web, Nginx usa un enfoque asincrónico basado en eventos donde las solicitudes se manejan en un solo hilo. Con Nginx, un proceso maestro puede controlar múltiples procesos de trabajo. El proceso maestro mantiene los procesos de trabajo, y son estos lo que hacen el procesamiento real.
 
-- Algunas características comunes que se ven en Nginx incluyen:
-
-    - Proxy inverso con caché
-    - IPv6
-    - Balanceo de carga
-    - Soporte FastCGI con almacenamiento en caché
-    - Websockets
-    - Manejo de archivos estáticos, archivos de índice y auto indexación
-    - TLS / SSL con SNI
 ## 5-Referencias
 - https://learn.microsoft.com/es-es/troubleshoot/developer/webapps/aspnetcore/practice-troubleshoot-linux/2-2-install-nginx-configure-it-reverse-proxy
 - https://marketersgroup.es/diferencias-entre-apache-y-nginx/#:~:text=El%20servidor%20de%20Apache%20tiene,velocidad%20y%20mejora%20el%20rendimiento.
